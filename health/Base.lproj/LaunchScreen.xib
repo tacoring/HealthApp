@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Copyright (c) 2014 CHHD. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="695" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COLLEGE of                       " textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="3Im-yj-GA4">
+                    <rect key="frame" x="-7" y="203" width="209" height="21"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="3vR-p8-Gzp">
+                    <rect key="frame" x="46" y="227" width="334" height="4"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULLERTON" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLs-af-VNl">
+                    <rect key="frame" x="48" y="147" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HEALTH &amp; HUMAN DEVELOPMENT" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="MaS-vW-O25">
+                    <rect key="frame" x="-32" y="221" width="441" height="55"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALIFORNIA STATE UNIVERSITY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cha-ut-xze">
+                    <rect key="frame" x="48" y="118" width="257" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.26666668059999998" green="0.37254902719999999" blue="0.55294120309999995" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="jLs-af-VNl" secondAttribute="centerX" constant="109.5" id="G7v-gO-bu0"/>
+                <constraint firstAttribute="centerX" secondItem="3Im-yj-GA4" secondAttribute="centerX" constant="109.5" id="GBb-id-LNo"/>
+                <constraint firstAttribute="centerY" secondItem="3Im-yj-GA4" secondAttribute="centerY" constant="154.5" id="M1O-V6-Bkm"/>
+                <constraint firstAttribute="centerY" secondItem="cha-ut-xze" secondAttribute="centerY" constant="239.5" id="Qf2-d0-Ma6"/>
+                <constraint firstAttribute="centerX" secondItem="cha-ut-xze" secondAttribute="centerX" constant="30.5" id="Uiv-On-pGK"/>
+                <constraint firstAttribute="centerY" secondItem="jLs-af-VNl" secondAttribute="centerY" constant="210.5" id="cXz-8g-FwR"/>
+                <constraint firstAttribute="centerX" secondItem="MaS-vW-O25" secondAttribute="centerX" constant="18.5" id="gMw-um-4PN"/>
+                <constraint firstAttribute="centerX" secondItem="3vR-p8-Gzp" secondAttribute="centerX" constant="-6" id="hVD-FY-XAk"/>
+                <constraint firstAttribute="centerY" secondItem="3vR-p8-Gzp" secondAttribute="centerY" constant="139" id="idf-CE-SG4"/>
+                <constraint firstAttribute="centerY" secondItem="MaS-vW-O25" secondAttribute="centerY" constant="119.5" id="xKm-N5-nXd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="548" y="459"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="divider.png" width="484" height="4"/>
+    </resources>
+</document>
